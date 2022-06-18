@@ -1,0 +1,73 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: white;
+}  
+
+main {
+    width: 50%;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.sedan {
+    background-color: hsl(31, 77%, 52%);
+    padding: 50px;
+}
+
+.suv{
+    background-color: hsl(184, 100%, 22%);
+    padding: 50px;
+}
+
+.luxury {
+    background-color: hsl(179, 100%, 13%);
+    padding: 50px;
+}
+
+p {
+    color: hsla(0, 0%, 100%, 0.75);
+    font-family: Lexend Deca;
+    font-weight: 400;
+    
+}
+
+h2 {
+    color: hsl(0, 0%, 95%);
+    font-family: Big Shoulders Display;
+    font-weight: 700;
+}
+
+.sed {
+    background-color: hsl(0, 0%, 95%);
+    padding: 5%;
+    border: 0px;
+    border-radius: 50px;
+    width: 70%;
+    color: hsl(31, 77%, 52%);
+}
+
+.sv {
+    background-color: hsl(0, 0%, 95%);
+    padding: 5%;
+    border: 0px;
+    border-radius: 50px;
+    width: 70%;
+    color: hsl(184, 100%, 22%);
+}
+
+.lux {
+    background-color: hsl(0, 0%, 95%);
+    padding: 5%;
+    border: 0px;
+    border-radius: 50px;
+    width: 70%;
+    color: hsl(179, 100%, 13%);
+}

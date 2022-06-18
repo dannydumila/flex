@@ -1,0 +1,47 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body {
+    background-color: rgb(25, 25, 72);
+    display: flex;
+    place-items: center;
+    height: 100vh;
+}
+main {
+    display: grid;
+    width: 70%;
+    height: 70%;
+    margin: auto;
+    grid-template-areas: 
+    'a a a b'
+    'a a a b'
+    'c c d d'
+    'c c e e'
+    ;
+    gap: 15px;
+}
+main div{
+    padding: 2em;
+    text-align: center;
+}
+.boxa {
+    background-color: rgb(255, 34, 0);
+    grid-area: a;
+}
+.boxb {
+    background-color: rgb(255, 153, 0);
+    grid-area: b;
+}
+.boxc {
+    background-color: rgb(35, 156, 35);
+    grid-area: c;
+}
+.boxd {
+    background-color: rgb(28, 180, 223);
+    grid-area: d;
+}
+.boxe {
+    background-color: rgb(28, 180, 223);
+    grid-area: e;
+}
